@@ -1,0 +1,9 @@
+{
+    "items":[
+        {"type": "bestseller", "name": "Super fajna zabawka dla malucha", "price": "49,99", "src": "images/toy1.jpg", "sale": true, "salePercent": 10, "oldPrice": "55,49"},
+        {"type": "bestseller", "name": "Bardzo fajna abawka dla malucha", "price": "249,99", "src": "images/toy2.jpg", "sale": false, "salePercent": null, "oldPrice": ""},
+        {"type": "bestseller", "name": "Srednio fajna abawka dla malucha", "price": "99,99", "src": "images/toy3.jpg", "sale": true, "salePercent": 15, "oldPrice": "129,99"},
+        {"type": "bestseller", "name": "Nawet fajna abawka dla malucha", "price": "139,99", "src": "images/toy4.jpg", "sale": false, "salePercent": null, "oldPrice": ""}
+    ]
+}
+

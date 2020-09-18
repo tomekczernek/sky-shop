@@ -1,0 +1,252 @@
+@blue: #51c0db;
+@light-blue: #d2f2f9;
+@dark: #595959;
+@grey: #999999;
+@light: #ffffff;
+@nav-header-height: 200px;
+@nav-header-height-scroll: 130px;
+@nav-menu-height: 50px;
+@nav-header-height-mobile: 90px;
+@scroll-transition: 0.25s;
+
+body {
+    padding-top: @nav-header-height + @nav-menu-height;
+    font-family: 'Lato', sans-serif;
+    color: @dark;
+    transition: @scroll-transition;
+}
+
+.sky-body-scroll{
+    padding-top: @nav-header-height-scroll!important;
+}   
+
+.btn:focus,
+input:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-menu{
+    font-size: 0.85rem;
+    min-width: 0!important;
+}
+
+.sky-icon-blue{
+    color: @blue;
+}
+
+.sky-icon-dark{
+    color: @dark;
+}
+
+.sky-border-blue{
+    border-color: @blue!important;
+}
+
+.sky-border-grey{
+    border-color: @grey!important;
+}
+
+.sky-inline{
+    display: inline;
+    vertical-align: middle;
+}
+
+.sky-btn, .sky-imput{
+    font-weight: 600;
+    border: solid 1px @grey;
+}
+
+.sky-drop-item{
+    margin: 0;
+    cursor: pointer;
+}
+
+#sky-nav-header-navbar{
+    height: @nav-header-height;
+    z-index: 2000;
+    transition: @scroll-transition;
+
+    #sky-header-line-1{
+        font-size: 0.85rem;
+    }
+}
+
+.sky-nav-header-navbar-scroll{
+    height: @nav-header-height-scroll!important;
+}
+
+#sky-nav-menu-navbar{ 
+    top: @nav-header-height;
+    height: @nav-menu-height;
+    z-index: 2000;
+    transition: @scroll-transition;
+
+    a{
+        color: @light;
+    }    
+}
+
+.sky-nav-menu-navbar-scroll{
+    top: @nav-header-height-scroll!important;
+}
+
+.sky-scroll-image{
+    width: 50%!important;
+}
+
+#sky-search-btn{
+    margin-left: -8px;
+}
+
+#sky-search-modal-content{
+    margin-top:  @nav-header-height + @nav-menu-height + 30px;
+    max-height: 45%;
+}
+
+#sky-carousel-toys{
+    background-color: @light-blue;
+}
+
+.sky-carousel-toys-title{
+    color: @blue;
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#sky-newsletter{
+    background-color: @blue;
+    color: @light;
+}
+
+.sky-h4-title{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.sky-footer-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    .sky-footer-list-item{
+        list-style-type: none;
+        a, span{
+            color: @dark;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+    }
+}
+
+.sky-product-item{
+    cursor: pointer;
+    transition: .15s;
+}
+
+.sky-product-item:hover{
+    background-color: @blue;
+    color: @light;
+}
+
+.sky-nav, #sky-nav-menu{
+    background-color: @blue;
+}
+
+.sky-search-image{
+    max-height: 75px;
+}
+
+.sky-skip-element{
+    font-size: 45px;
+}
+
+.owl-prev {
+    left: -35px;
+    position: absolute;
+    top: 40%;
+}
+
+.owl-next {
+    position: absolute;
+    right: -35px;
+    top: 40%;
+}
+
+.sky-carousel-price{
+    font-size: 1.2rem;
+}
+
+.sky-carousel-old-price{
+    font-size: 0.85rem;
+}
+
+.sky-carousel-old-price{
+    text-decoration: line-through;
+}
+
+.sky-carousel-main{
+    cursor: pointer;
+}
+
+#sky-newsletter{
+    background: @blue url('images/newsletter.jpg') no-repeat center;
+    background-attachment: cover;
+}
+
+@media (max-width: 768px){
+
+    body {
+        padding-top: @nav-header-height-mobile + @nav-menu-height;
+    }
+
+    .sky-mobile-remove{
+        display: none;
+    }
+
+    #sky-header-line-1{
+        padding: 5px 0!important;
+        justify-content: space-around!important;
+    }
+
+    #sky-header-line-2{
+        padding: 0 0 5px 0!important;
+    }
+
+    #sky-nav-btn{
+        background-color: @blue;
+    }
+
+    #sky-nav-header-navbar{
+        height: @nav-header-height-mobile;
+    }
+
+    #sky-nav-menu-navbar{
+        top: @nav-header-height-mobile;
+    }
+
+    #sky-utilities{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #sky-search-modal-content{
+        margin-top:  @nav-header-height-mobile + @nav-menu-height + 20px;
+    }
+
+    #sky-choice-img-1{
+        padding-right: 0;
+    }
+
+    #sky-choice-img-2{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .sky-mobile-small-remove{
+        display: none;
+    }
+}

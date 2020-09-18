@@ -1,0 +1,24 @@
+{
+    "items":[
+        {"type": "klocki", "name": "Fajne klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Srednie klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Słabe klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "sztos", "name": "Sztos klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Fajne klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Srednie klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Słabe klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "sztos", "name": "Sztos klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Fajne klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Srednie klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Słabe klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "sztos", "name": "Sztos klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Fajne klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Srednie klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Słabe klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "sztos", "name": "Sztos klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Fajne klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Srednie klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "klocki", "name": "Słabe klocki", "price": "49,99", "src": "logo-min.jpg"},
+        {"type": "sztos", "name": "Sztos klocki", "price": "49,99", "src": "logo-min.jpg"}
+    ]
+}
